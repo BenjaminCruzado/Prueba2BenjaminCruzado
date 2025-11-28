@@ -6,7 +6,7 @@ Class {
 		'vulnerabilities',
 		'workflow'
 	],
-	#category : #Prueba2BenjaminCruzado
+	#category : #'Prueba2BenjaminCruzado-model'
 }
 
 { #category : #'as yet unclassified' }
