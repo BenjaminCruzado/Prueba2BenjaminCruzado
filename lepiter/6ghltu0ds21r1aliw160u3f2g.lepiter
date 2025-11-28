@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:27:07.661-03:00"
+						"dateAndTimeString" : "2025-11-28T19:55:01.449-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "yD9y2RABDgC6k5VuCXkVbQ=="
 				},
-				"code" : "a := AnalizadorSecurityData new.\r\ndir := 'C:/Users/Benjamin Cruzado/Desktop/Universidad/security_data (1)/consolidated_data' asFileReference.\r\t\njsonList := a loadAllJSONFilesFrom: dir.\r\nworkflows := a parseAllWorkflowsFromDictionaries: jsonList.\r\t\n"
+				"code" : "a := AnalizadorSecurityData new.\r\ndir := 'C:/Users/Benjamin Cruzado/Desktop/Universidad/security_data (1)/consolidated_data' asFileReference.\r\t\njsonList := a loadAllJSONFilesFrom: dir.\r\nworkflows := a parseAllWorkflowsFromDictionaries: jsonList.\r"
 			}
 		]
 	},
@@ -59,12 +59,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-28T19:07:08.678-03:00"
+			"dateAndTimeString" : "2025-11-28T19:54:33.329-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pueba 2 Benjamin Cruzado"
+		"title" : "Prueba 2 Benjamin Cruzado"
 	},
 	"uid" : {
 		"__type" : "uuid",

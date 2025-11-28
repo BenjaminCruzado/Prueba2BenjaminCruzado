@@ -18,108 +18,6 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:19:46.107-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:26:26.148-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "eOaQwxABDgC5zV45CXkVbQ=="
-				},
-				"code" : "Object subclass: #Vulnerability\r\n    instanceVariableNames: 'ruleId level message'\r\n    classVariableNames: ''\r\n    poolDictionaries: ''\r\n    category: 'Prueba2BenjaminCruzado'\r\n"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:25:34.333-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:25:57.553-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "SGhS2BABDgC6hOFgCXkVbQ=="
-				},
-				"code" : "Object subclass: #WorkflowVersion\r\n    instanceVariableNames: 'date vulnerabilities workflow'\r\n    classVariableNames: ''\r\n    poolDictionaries: ''\r\n    category: 'Prueba2BenjaminCruzado'\r\n\r\n"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:25:47.709-03:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:26:27.9-03:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "SIIe2RABDgC6jroICXkVbQ=="
-				},
-				"code" : "Object subclass: #Workflow\r\n    instanceVariableNames: 'repoOwner repoName workflowName versions'\r\n    classVariableNames: ''\r\n    poolDictionaries: ''\r\n    category: 'Prueba2BenjaminCruzado'\r\n"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-11-28T19:25:53.197-03:00"
 					}
 				},
@@ -131,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T19:26:29.443-03:00"
+						"dateAndTimeString" : "2025-11-28T19:35:28.233-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "yD9y2RABDgC6k5VuCXkVbQ=="
 				},
-				"code" : "Object subclass: #AnalizadorSecurityData\r\n    instanceVariableNames: ''\r\n    classVariableNames: ''\r\n    poolDictionaries: ''\r\n    category: 'Prueba2BenjaminCruzado'\r\n"
+				"code" : "a := AnalizadorSecurityData new.\r\ndir := 'C:/Users/Benjamin Cruzado/Desktop/Universidad/security_data (1)/consolidated_data' asFileReference.\r\t\njsonList := a loadAllJSONFilesFrom: dir.\r\nworkflows := a parseAllWorkflowsFromDictionaries: jsonList.\r\t"
 			}
 		]
 	},
@@ -161,12 +59,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-28T19:07:08.678-03:00"
+			"dateAndTimeString" : "2025-11-28T19:54:33.329-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Pueba 2 Benjamin Cruzado"
+		"title" : "Prueba 2 Benjamin Cruzado"
 	},
 	"uid" : {
 		"__type" : "uuid",
