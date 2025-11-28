@@ -5,6 +5,43 @@
 		"__type" : "snippets",
 		"items" : [
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T20:47:31.208-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T20:49:44.595-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QPdj/REBDgCP8NWABHrzgA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Modelo de dominio \r\nEl modelo de dominio implementado está compuesto por tres clases principales: Workflow, WorkflowVersion y Vulnerability.\r\nLa clase Workflow representa un flujo de trabajo y contiene información sobre el repositorio (repoOwner y repoName) y el nombre del workflow, además de una colección de WorkflowVersion que representa todas sus versiones.\r\n\r\nMétricas \r\nEn el modelo se definieron dos métricas principales. La primera, asociada a la clase WorkflowVersion, es el número de vulnerabilidades de cada versión.\r\nLa segunda, asociada a la clase Workflow, es el número de versiones que tiene cada workflow.\r\nLa clase Vulnerability almacena información detallada de cada vulnerabilidad, incluyendo ruleId, nivel de severidad y mensaje descriptivo, pero no tiene métricas propias.\r\n\r\nRelaciones entre clases\r\nUn Workflow contiene muchas WorkflowVersion, y cada WorkflowVersion puede contener varias Vulnerability.\r\nEsta estructura permite modelar de manera jerárquica la información del historial de vulnerabilidades de cada workflow, facilitando la extracción de métricas y la visualización de la evolución a lo largo del tiempo.\r\n\r\nVisualización\r\nCada versión de un workflow se representa mediante un rectángulo.\r\nEl tamaño de cada rectángulo es proporcional al número de vulnerabilidades de esa versión, con un mínimo visible para versiones sin vulnerabilidades.\r\nEl color del rectángulo depende del número total de versiones del workflow: verde si el workflow tiene cinco o más versiones, rojo si tiene menos de cinco, y gris claro para versiones sin vulnerabilidades.\r\n\r\nHome Section y visualización del historial \r\nEn la Home Section se listan todos los workflows.\r\nAl seleccionar un workflow, se despliega una vista de historial donde se muestran todos los rectángulos correspondientes a sus versiones.\r\nEstos se colocan horizontalmente con un espacio entre ellos y se organizan automáticamente en nuevas líneas cuando el ancho disponible no es suficiente, permitiendo así visualizar de manera clara la evolución de vulnerabilidades a lo largo del tiempo."
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -37,6 +74,43 @@
 					"uidString" : "yD9y2RABDgC6k5VuCXkVbQ=="
 				},
 				"code" : "a := AnalizadorSecurityData new.\r\ndir := 'C:/Users/Benjamin Cruzado/Desktop/Universidad/security_data (1)/consolidated_data' asFileReference.\r\t\njsonList := a loadAllJSONFilesFrom: dir.\r\nworkflows := a parseAllWorkflowsFromDictionaries: jsonList.\r"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T20:49:46.706-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T20:49:46.706-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0EZi9xEBDgCP5GQyBHrzgA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
