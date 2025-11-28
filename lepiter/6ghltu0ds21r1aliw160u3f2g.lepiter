@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T18:41:32.041-03:00"
+						"dateAndTimeString" : "2025-11-28T19:25:53.197-03:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T18:41:32.041-03:00"
+						"dateAndTimeString" : "2025-11-28T19:27:07.661-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "KDvUOhABDgC5eHKzCXkVbQ=="
+					"uidString" : "yD9y2RABDgC6k5VuCXkVbQ=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "a := AnalizadorSecurityData new.\r\ndir := 'C:/Users/Benjamin Cruzado/Desktop/Universidad/security_data (1)/consolidated_data' asFileReference.\r\t\njsonList := a loadAllJSONFilesFrom: dir.\r\nworkflows := a parseAllWorkflowsFromDictionaries: jsonList.\r\t\n"
 			}
 		]
 	},
@@ -62,12 +59,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-28T18:41:32.021-03:00"
+			"dateAndTimeString" : "2025-11-28T19:07:08.678-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Page 1"
+		"title" : "Pueba 2 Benjamin Cruzado"
 	},
 	"uid" : {
 		"__type" : "uuid",
